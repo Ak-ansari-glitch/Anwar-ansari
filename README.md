@@ -1,91 +1,23 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
-  <head>
-
-    <meta charset="UTF-8" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>untoldcoding</title>
-
-    <link rel="stylesheet" href="new.css" />
-
-  </head>
-
-  <body>
-
-    <div class="wrap">
-
-      <h1>For You 💖</h1>
-
-      <div class="postcard1"></div>
-
-      <div class="postcard">
-
-        <div class="letter"></div>
-
-        <p>
-
-          <span>My Love,</span>
-
-          <br />
-
-          On this Rose Day, each petal symbolizes my admiration <br />for you.
-
-          Your presence colors my world with joy and warmth.Like a rose in full
-
-          bloom, your beauty captivates my heart. The red roses reflect the
-
-          passion that burns for you, while the white ones signify the purity of
-
-          our love. In the garden of life, you're my most cherished blossom.
-
-          Thank you for being my source of love and inspiration. Our journey
-
-          together is as sweet as the fragrance of roses. Happy Rose Day, my
-
-          love. Here's to many more petals of shared laughter and enduring love.
-
-          <br />
-
-          <span class="ullu">
-
-            Forever Yours,
-
-            <br />
-
-            Ullu</span
-
-          >
-
-        </p>
-
-        <div class="address">
-
-          <img
-
-            src="https://i.postimg.cc/9Xq7XyF2/Untold-Coding.png"
-
-            class="mail_stamp"
-
-          />
-
-        </div>
-
-      </div>
-
+<html>
+<head>
+    <style>
+        body { background-color: #1a1a1a; color: #ff4d6d; text-align: center; font-family: 'Arial', sans-serif; }
+        .rose { font-size: 100px; margin-top: 20vh; animation: bloom 3s ease-in-out; }
+        @keyframes bloom {
+            0% { transform: scale(0); opacity: 0; }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .message { opacity: 0; animation: fadeIn 2s forwards 2.5s; margin-top: 20px; }
+        @keyframes fadeIn { to { opacity: 1; } }
+    </style>
+</head>
+<body>
+    <div class="rose">🌹</div>
+    <div class="message">
+        <h1>Happy Rose Day, [Name]!</h1>
+        <p>A digital rose for a girl who’s one in a million.</p>
     </div>
-
-
-
-    <footer>
-
-      <p>crafted by @untoldcoding.</p>
-
-    </footer>
-
-  </body>
-
+</body>
 </html>
